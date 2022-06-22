@@ -1,13 +1,14 @@
 #include<stdio.h>
 
-int main() {
+int main()
+{
     int num,i,n,k,num1;
     printf("Enter any number:");
     scanf("%d",&num);
     n=num;
     i=0;
     printf("\nEnter the digit:");
-    scanf("%d",&num);
+    scanf("%d",&num1);
     
     while(n!=0)
     {
